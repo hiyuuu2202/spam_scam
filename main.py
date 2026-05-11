@@ -20,7 +20,7 @@ headers = {
 }
 
 try:
-    for (i) in range(10):  # Gửi 10 request liên tiếp   
+    for (i) in range(1000):  # Gửi 10 request liên tiếp   
         
         response = requests.post(
             url,
